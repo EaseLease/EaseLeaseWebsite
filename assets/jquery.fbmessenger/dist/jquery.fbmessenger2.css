@@ -1,0 +1,36 @@
+/*body, html {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}*/
+
+div.vcenter {
+  margin: 5vh auto 0;
+  height: 75vh;
+  width: 100%;
+  text-align: center;
+}
+
+div.iphone-wrapper {
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  position: relative;
+}
+
+div.iphone-wrapper > img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+
+div.screen-content {
+  position: absolute;
+  top: 10.8985%;
+  bottom: 20%;
+  left: 14.65%;
+  right: 16.8%;
+  background: #000;
+  border-radius: 3px;
+  overflow: hidden;
+}
